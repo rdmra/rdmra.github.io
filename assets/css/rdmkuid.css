@@ -1,0 +1,123 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+body {
+	color: #777;
+	background-color: #fff;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	margin: 0;
+	overflow:hidden;
+}
+header {
+	display: block;
+	padding: 1rem;
+	border-bottom: 1px solid #eee;
+}
+content, footer {
+	display: block;
+	padding: 1.5rem 1rem;
+	background-color: #f9fcfe;
+}
+aside {
+	display: block;
+	padding: 2rem 1rem;
+	background-color: #fff;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+footer {
+	display: block;
+	text-align: center;
+	border-top: 1px solid #eee;
+}
+section {
+	display: block;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+h1, h2 {
+	display: block;
+	margin: 0 0 .75rem;
+}
+h1 {
+	font-size: 22px;
+	color: #9635ba;
+	text-align: center;
+}
+h2 {
+	font-size: 16px;
+	margin: 0 0 .5rem;
+}
+p {
+	display: block;
+	margin: 0 0 1rem;
+	line-height: 1.35em;
+}
+a {
+	color: #389eec;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo-header {
+	width: 155px;
+	height: 49px;
+	background-image: url(https://raudhatulathfal.web.id/assets/img/rdmku-logo.png);
+	margin: auto;
+}
+.logo-header img{
+	max-width:155px;
+}
+.banner img {
+	border-radius: 10px;
+}
+
+.underline {
+	width: 60px;
+	height: 4px;
+	margin: auto;
+	background-color: #d79dec;
+}
+
+.welcome {
+	margin: 3rem 0 5rem;
+	text-align: center;
+}
+
+.step {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+
+@media (min-width: 576px) {
+	.step-desc {
+		min-width: 350px;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		width: 600px;
+	}
+}
